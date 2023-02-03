@@ -1,4 +1,3 @@
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Counter {
@@ -34,6 +33,7 @@ public class Counter {
 
         };
         Runnable oddRun = () -> {
+
             counter.c = 0;
             counter.increment();
             while(counter.c < number){
